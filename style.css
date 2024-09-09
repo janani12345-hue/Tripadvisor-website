@@ -1,0 +1,474 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      
+
+ 
+}
+.Navebar{
+    display:flex;
+    justify-content: space-around;
+}
+.Navebar__image img{
+    width:250px;
+}
+.Navebar__title{
+    display:flex;
+    gap:30px;
+}
+.Navebar__title h3{
+    padding:10px;
+}
+.Navebar__title h3:hover{
+  border:none;
+  border-radius:25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.Navebar__button .b2{
+border:none;
+background-color:black;
+color:white;
+padding:10px;
+
+
+}
+.Navebar__button .b1{
+    border:none;
+    background-color: transparent;
+}
+.Main-Heading h1{
+    font-size:50px;
+    text-align: center;
+}
+.Menubar{
+  display: flex;
+  justify-content: center;
+  gap:30px;
+}
+
+.Menubar p{
+    font-size:large;
+    font-weight:600
+}
+
+.Menubar__item1:hover{
+  text-decoration: underline;
+}
+.Searchbar{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.Searchbar__box{
+    display:flex;
+   
+    justify-content: space-between;
+   padding:5px;
+    width:900px;
+    border-radius: 25px;
+    align-items:center ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+
+}
+.Searchbar__title{
+    display:flex;
+    
+}
+.Seachbar__title input{
+    border:none;
+    width:300px;
+   
+}.Seachbar__title input:focus{
+    outline:none;
+}
+
+ .Search__button{
+    border:none;
+    background-color: greenyellow;
+    padding:10px;
+    border-radius:25px;
+    height:50px;
+    width:100px;
+}
+.Search__button:hover{
+    border:solid 1px black;
+    border-top: solid 1px blue;
+        height:30px;
+        width:30px;
+        background-color: transparent;
+        border-radius:50%;
+       font-size:0;
+        animation-name:janani;
+        animation-duration:2s;
+        animation-iteration-count: infinite;
+        
+       
+    }
+    @keyframes janani{
+        0%{
+            transform:rotate(0);
+        }
+        100%{
+            transform:rotate(180deg)
+        }
+    }
+
+.Advertiesment{
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+}
+.Advertiesment__color{
+    background-color: violet;
+    height:400px;
+    width:80%;
+    position:relative;
+    border-radius:25px;
+    padding:15px;
+    
+}
+.Advertiesment__color img{
+    position:absolute;
+    width:100%;
+ height:450px; 
+    right:5px;
+    bottom:0px;
+    
+    
+}
+.description{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    position:absolute;
+    top:60px;
+    left:60px;
+}
+.desc__subtitle h1{
+    font-size:40px;
+    
+}
+.desc__subtitle h3{
+    font-size:30px;
+}
+.desc__title{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.desc__title button{
+    border:none;
+    background-color: white;
+    width:50px;
+    height:20px;
+    
+}
+.desc__subtitle__one{
+    display:none;
+}
+.desc__subtitle button{
+    border:none;
+    background-color: black;
+    color:white;
+    margin-top:20px;
+    font-size:20px;
+    padding:10px;
+    border-radius:25px;
+
+}
+.Mostvisit{
+    margin-top:10px;
+    padding:30px;
+    margin-left:80px;
+}
+
+.Mostvisit__subtitle{
+    font-weight:300;
+}
+.Mostvisit__image{
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:10px;
+     
+     margin-top:10px;
+   
+}
+.Mostvisit__image img{
+    width:270px;
+    border-radius: 25px;
+}
+.con1__card{
+    width:270px;
+    position: relative;
+   
+}
+.con1__card img{
+    width:270px;
+    border-radius: 10px;
+    
+}
+.con1__card h1{
+    position:absolute;
+    bottom:10px;
+    color:white;
+    left:20px;
+}
+.card__heart img{
+    width:20px;
+}
+.card__heart{
+    border:none;
+    position:absolute;
+    background-color: white;
+    width:fit-content;
+    padding:10px;
+    border-radius: 50%;
+    top:10px;
+    right:2px;
+  
+}
+.Mostvisit-s2{
+    margin-top:10px;
+    padding:30px;
+    margin-left:80px;
+
+}
+.Mostvisit-s3{
+    margin-top:10px;
+    padding:30px;
+    margin-left:80px;
+
+
+}
+.Mostvisit-s4{
+    margin-top:10px;
+    padding:30px;
+    margin-left:80px;
+
+}
+.Mostvisit-s5__container img{
+    width:150px;
+}
+.Mostvisit-s5__container{
+    display:flex;
+    display:flex;
+        gap:20px;
+        position:relative;
+        background-color: bisque;
+        height:150px;
+        align-items:center;
+        padding:20px;
+        width:80%;
+        border-radius: 20px;
+        margin-top:20px;
+}
+.Mostvisit-s5__container button{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    background-color:white;
+    padding:10px;
+    border:none;
+    border-radius:20px;
+    transition: 2s;
+    
+
+
+
+}
+.Mostvisit-s5__container button:focus{
+    outline:none;
+}
+.Mostvisit-s5__container button:hover{
+  background-color: transparent;
+  border:black solid 2px;
+  transition: 2s;
+
+    
+    
+}
+.Mostvisit-s5{
+    display:flex;
+    justify-content: center;
+    
+}
+.big_image{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+    padding:20px;
+    width:100%;
+    
+    gap:20px;
+    
+  
+}
+.two__title a{
+    color:black;
+}
+.one img{
+    border-radius: 25px;
+}
+
+
+.two__title img{
+    width:50px;
+    border-radius: 25px;
+}
+.two__title{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    justify-content: center;
+    
+}
+
+.two{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.promo{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+img:hover{
+    opacity:0.8;
+}
+
+.terms-condition{
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+    padding:20px;
+
+}
+.about{
+    display: flex;
+    gap:20px;
+}
+.terms-1 img {
+    width:70px;
+
+}
+.terms2 p{
+    text-decoration: underline;
+}
+.terms-condition2{
+    display:flex;
+    justify-content: space-between;
+}
+.terms2{
+    display:flex;
+    gap:20px
+}
+.terms-1{
+    display:flex;
+    align-items:center;
+}
+select {
+    width: 200px; /* Adjust width as per your design */
+    padding: 5px; /* Space inside the select box */
+    border: 1px solid #ccc; /* Border around the select box */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Background color */
+    font-size: 16px; /* Text size */
+    color: #333; /* Text color */
+    appearance: none; /* Remove default arrow in some browsers */
+    cursor: pointer; 
+    font-weight:bolder/* Change cursor to pointer */
+  }
+ .icon i{
+    font-size:30px;
+  }
+  
+.ending p{
+    width:800px;
+   
+}
+.end{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+    padding:10px;
+
+}
+@media screen and (max-width:800px){
+    .desc__subtitle{
+        display:none;
+    }
+        .two{
+
+            width:100%;
+        }
+
+}
+
+
+
+@media screen and (max-width:600px){
+    .Navebar__title{
+        display:none;
+    }
+    .Main-Heading h1{
+        font-size:30px;
+    }
+    .Menubar{
+        display:none;
+    }
+     .desc__subtitle{
+        display:none;
+     }
+.Mostvisit__title{
+    font-size:20px;
+    
+}
+.Mostvisit__subtitle{
+    font-size:15px;
+}
+.Mostvisit{
+    margin-left:5px;
+}
+.Mostvisit-s2{
+    margin-left:0;
+    
+
+}
+.Mostvisit-s2__title{
+    font-size:20px;
+}
+.Mostvisit-s2__subtitle{
+    font-size:15px;
+}
+.Mostvisit-s5__heading{
+    font-size:10px;
+}
+.promo{
+    display: none;
+}
+.terms-2{
+    display:none;
+}
+}
+        
+    
+
+
+  
+   
+
+
+
